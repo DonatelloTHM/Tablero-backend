@@ -1,24 +1,43 @@
-# README
+# Tablero Backend 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Video Demo](https://www.youtube.com/watch?v=cCPrYWB_dHU)
 
-Things you may want to cover:
+This is the Ruby on Rails API for Tablero. Tablero is an all-in-one productivity dashboard;
 
-* Ruby version
+[Link to Frontend](https://github.com/DonatelloTHM/Tablero-frontend)
 
-* System dependencies
+## Getting Started
 
-* Configuration
+1. Install [Homebrew](https://brew.sh/)
 
-* Database creation
+    ```$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
+  
+2. Install [Ruby](https://www.ruby-lang.org/en/)
+    
+    ```$ brew install ruby```
 
-* Database initialization
+3. Install [Rails](https://rubyonrails.org/)
 
-* How to run the test suite
+    ```$ gem install rails```
 
-* Services (job queues, cache servers, search engines, etc.)
+4. Install [PostgreSQL](https://www.postgresql.org/)
 
-* Deployment instructions
+    ```$ brew install postgresql```
 
-* ...
+
+## Downloading This Project
+
+1. Clone the repo and cd into the folder
+2. Bundle Install
+
+    ```$ bundle install```
+    
+3. Create migrations, migrate and seed:
+
+    ```
+    $ rails db:create
+    $ rails db:migrate
+    $ rails db:seed
+4. Last step, launch the rails server!
+
+    ```$ rails s -p 3000```
