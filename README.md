@@ -4,7 +4,7 @@
 
 This is the Ruby on Rails API for Tablero. Tablero is an all-in-one productivity dashboard;
 
-[Link to Frontend](https://github.com/DonatelloTHM/Tablero-frontend)
+[Link to Frontend](https://github.com/DonatelloTHM/tablero)
 
 ## Getting Started
 
